@@ -1,0 +1,337 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-color {
+  color: #5B9CFB !important;
+}
+
+
+
+
+/* --------- */
+/* Content */
+/* --------- */
+
+.content{
+  color: #5B9CFB;
+  text-align: center;
+  font-stretch: condensed;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-card{
+  position: relative;
+  height: calc(100vh - 100px) !important;
+  border-radius:24px !important;
+  margin: 12px 24px 24px 0px !important;
+  overflow-y: scroll !important;
+  width: auto;
+}
+
+/* --------- */
+/* Login sigin up */
+/* --------- */
+
+.login-card{
+  margin: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent !important;
+}
+.login-form{
+  background:white;
+  padding: 48px 16px 24px 48px;
+  font-weight:900;
+  border-radius: 48px !important;
+}
+.user-info{
+  background:white;
+  padding: 48px;
+  font-weight:900;
+  border-radius: 48px !important;
+}
+
+
+
+/* --------- */
+/* checkbox */
+/* --------- */
+.arco-checkbox-checked .arco-checkbox-mask{
+  background-color: #5B9CFB!important;
+}
+
+
+
+  /* --------- */
+/* Header */
+/* --------- */
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  height: 64px;
+  background-color: var(--color-fill-3);
+  padding: 0 24px;
+}
+.header-title{
+  font-weight: 900;
+  font-size: xx-large;
+  background-image: linear-gradient(90deg, #5B9CFB 2.84%,pink 99.18%);
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;
+}
+.header-info{
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  gap: 12px;
+}
+
+
+
+
+/* --------- */
+/* Sider */
+/* --------- */
+.arco-menu-light .arco-menu-item{
+  display: flex;
+  position: fixed;
+}
+.arco-menu-vertical .arco-menu-inner .arco-menu-item{
+  border-radius: 12px;
+  gap: 8px;
+  align-items:center;
+  font-weight:800 !important;
+  font-size:medium !important;
+  margin: 8px 4px 4px 4px;
+  line-height: 52px;
+}
+.arco-menu-light .arco-menu-item.arco-menu-selected {
+  color: #5B9CFB !important;
+}
+.menu{
+  height: calc( 100vh - 64px  );
+  width: 20vw;
+  background-color: var(--color-fill-3)!important;
+}
+
+
+
+/* --------- */
+/* Footer */
+/* --------- */
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 22px;
+  background-color: transparent;
+  font-size: smaller;
+  font-weight: bolder;
+  color: #adadad;
+  text-align: center;
+}
+
+
+
+
+/* --------- */
+/* Button */
+/* --------- */
+.arco-btn-primary.arco-btn-disabled {
+  font-weight:700 !important;
+  background-color: #add0ff !important;
+}
+.arco-btn-primary:not(.arco-btn-disabled){
+  font-weight:700 !important;
+  background-color: #5B9CFB !important;
+}
+.arco-btn-primary:not(.arco-btn-disabled):hover{
+  font-weight:700 !important;
+  background-color: #3e89ff !important;
+}
+.arco-btn-primary:not(.arco-btn-disabled):active{
+  font-weight:700 !important;
+  background-color: #146eff !important;
+}
+
+
+
+
+/* --------- */
+/* playground card */
+/* --------- */
+.playground-card {
+  height: 200px;
+  border-radius: 12px !important;
+  margin: 12px;
+  box-shadow:0px 0px 20px var(--color-fill-3);
+  cursor: pointer;
+}
+.playground-card:hover {
+  background-color: var(--color-fill-1);
+}
+.playground-card-title {
+  float:left;
+  margin-left:auto;
+  margin-top: 1px;
+  font-size: large;
+}
+.playground-card-text {
+  float:left;
+  margin-left:auto;
+  font-weight: 200;
+  font-size: medium;
+}
+.arco-input {
+  width: 20vw !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+
+
+/* --------- */
+/* title */
+/* --------- */
+.title{
+  margin: 24px;
+  font-size: xx-large;
+  font-weight: bold;
+  color: var(--color-text-1);
+}
+.text {
+  font-weight: 300;
+  font-size: medium;
+  margin: 12px;
+}
+
+
+
+/* --------- */
+/* step bar */
+/* --------- */
+.arco-steps-item-process .arco-steps-icon {
+  border: 1px solid transparent;
+  color: var(--color-white);
+  background-color: #5B9CFB !important;
+}
+.arco-steps-item:not(.arco-steps-item-active) .arco-steps-item-title:hover {
+  color: #5B9CFB !important;
+}
+.arco-steps-mode-navigation .arco-steps-item-active::after {
+  background-color: #5B9CFB !important;
+}
+.step-btn{
+  display: flex;
+  /* 水平垂直居中 */
+  justify-content: center;
+  align-items: center;
+}
+.step-card{
+  width: calc(100vw - );
+  margin: 30px;
+  overflow: scroll;
+  text-align: center;
+  min-height:50vh;
+  /* 水平垂直居中 */
+  justify-content: center;
+  align-items: center;
+}
+
+/* --------- */
+/* upload drag */
+/* --------- */
+.upload-drag{
+  width: 100%;
+}
+.arco-upload-trigger-drag{
+  border-radius: 24px !important;
+}
+
+  /* --------- */
+/* select */
+/* --------- */
+.select{
+  width: 100%;
+}
+
+/* --------- */
+/* input */
+/* --------- */
+.arco-input-group > :first-child {
+  border-top-left-radius: 24px !important;
+  border-bottom-left-radius: 24px !important;
+}
+.arco-input-group > :last-child {
+  border-top-right-radius: 24px!important;
+  border-bottom-right-radius: 24px!important;
+}
+
+.chat-input{
+  border-radius:16px!important;
+  position: fixed;
+}
+.chat-card{
+  position: relative;
+  width: auto;
+}
+
+.message-container{
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  min-height: 0;
+  position: relative;
+}
+
+
+.message-main {
+  margin: 24px;
+  align-items: flex-start;
+  display: flex;
+  flex: 1 1;
+  min-width: 0;
+}
+
+.message-right {
+  display: block;
+  background: #f1f1f1;
+  border-radius: 12px;
+}
+.message-left{
+  background: #e9f2ff;
+  border-radius: 12px;
+}
+
+.bubble-text{
+  word-wrap: break-word;
+  box-sizing: border-box;
+  min-width: 2.5rem;
+  overflow-wrap: break-word;
+  padding: 0rem 0.7rem 0rem 0.7rem;
+  -webkit-user-select: text;
+  user-select: text;
+  white-space: pre-wrap;
+}
+
+
+.phone-view{
+
+}
