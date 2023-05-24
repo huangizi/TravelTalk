@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.056709bd.css",
+    "main.js": "./static/js/main.3918a327.js",
+    "static/js/787.e6064b52.chunk.js": "./static/js/787.e6064b52.chunk.js",
+    "static/media/house-2.png": "./static/media/house-2.253feaccdcb47a1a7c0a.png",
+    "static/media/chatgpt.png": "./static/media/chatgpt.3bd030f4587a1a1455eb.png",
+    "static/media/chatbot-2.png": "./static/media/chatbot-2.9a51aa4b94452d8d4d24.png",
+    "static/media/idea-2.png": "./static/media/idea-2.faed5d0fdd428a014ce1.png",
+    "static/media/discord.png": "./static/media/discord.55960cba794f3c2ba6fc.png",
+    "static/media/chatbot.png": "./static/media/chatbot.0159b8b16f5798407124.png",
+    "static/media/magic-wand.png": "./static/media/magic-wand.7866f92c3c9f22ec419e.png",
+    "static/media/idea.png": "./static/media/idea.805f1c4d29cd2af4b832.png",
+    "static/media/house.png": "./static/media/house.cb5b9b5d42f246ac5b53.png",
+    "index.html": "./index.html",
+    "static/media/App.less": "./static/media/App.31d6cfe0d16ae931b73c.less",
+    "main.056709bd.css.map": "./static/css/main.056709bd.css.map",
+    "main.3918a327.js.map": "./static/js/main.3918a327.js.map",
+    "787.e6064b52.chunk.js.map": "./static/js/787.e6064b52.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.056709bd.css",
+    "static/js/main.3918a327.js"
+  ]
+}
